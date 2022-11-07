@@ -1,4 +1,4 @@
-#from Tools.scripts.var_access_benchmark import A
+from Tools.scripts.var_access_benchmark import A
 from django.contrib.auth import authenticate, get_user_model
 from django.db.models import Func, F, Value, CharField, Q
 from django.http import Http404,HttpResponse
